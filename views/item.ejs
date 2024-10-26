@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Please Select your <%=categName%></h2>
+
+    <ul>
+      <%for(let i=0;i<items.length;i++){ %>
+       <li>
+        <%=items[i].name %>
+        <%=items[i].price %>
+       </li>        
+      <% } %>
+    </ul>
+
+   <form action="/category/<%=categorySearched%>" method="post">
+
+    <label for="itemName"></label>
+    <input type="text" name="itemName" placeholder="please enter item">
+    <label for="itemPrice"></label>
+    <input type="text" name="itemPrice" placeholder="please enter price in dollars per lb">
+    <button type="submit">Add an item</button>
+
+   </form>
+
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1><%=title%></h1>
+    <h2>Please select below Category to find items in a grocery department</h2>
+    <ul>
+     <% for(let i=0;i<categories.length;i++){ %>
+        <li>
+            <h3><%=categories[i].name%></h3>
+            <a href="/category/<%=categories[i]._id%>">Click to see the products in selected Category</a>
+        </li>
+     <% } %>
+    </ul>
+
+    <form action="/category"  method="post">
+      <label for="category">Category: </label>
+      <input type="text" name="category" />
+      <button type="submit">Add a new Category</button>
+    </form>
+  </body>
+</html>
