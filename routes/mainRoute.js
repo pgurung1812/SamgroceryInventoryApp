@@ -7,6 +7,8 @@ router.get("/",homeController.getHome)
 router.post("/category",homeController.addCategory)
 router.get("/category/:id",homeController.getItem)
 router.post("/category/:id",homeController.addItem)
+router.delete("/item/:id",homeController.deleteItem)
+router.delete("/category/:id",homeController.deleteCategory)
 
 
 
