@@ -22,11 +22,12 @@
     crossorigin="anonymous"
   />
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <h2>Please Select your <%=categName%></h2>
 
-    <ul>
+     <ul>
       <%for(let i=0;i<items.length;i++){ %>
        <li>
         <%=items[i].name %>
@@ -38,11 +39,10 @@
         >
           <button class="btn btn-primary fa fa-trash" type="submit"></button>
         </form>
-
-
        </li>        
       <% } %>
     </ul>
+
 
    <form action="/category/<%=categorySearched%>" method="post">
 
@@ -53,6 +53,8 @@
     <button type="submit">Add an item</button>
 
    </form>
+
+   <a href="/">Click here to go to HomePage</a>
 
   </body>
 </html>

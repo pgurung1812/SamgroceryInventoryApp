@@ -7,7 +7,6 @@ module.exports={
     getHome: async(request, response) =>{
         try {
             const categories = await Category.find().lean()
-            console.log(categories)
             response.render("index.ejs", { title: "Grocery Inventory App", categories: categories })
         }
         catch (err) {

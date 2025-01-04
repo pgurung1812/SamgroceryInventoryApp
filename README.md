@@ -1,6 +1,6 @@
 My Awesome Project
 
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+This application lets you create your own personal grocery inventory management system where you can create your own categories and the list of items associated with each categories. you can also delete and add categories and items.
 
 Link to project: http://recruiters-love-seeing-live-demos.com/
 
@@ -8,19 +8,19 @@ alt tag
 
 How It's Made:
 
-Tech used: HTML, CSS, JavaScript, Framework of choice
+Tech used: HTML, CSS, JavaScript, Express, Node, EJS, MongoDB,
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write something. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+For this product, I used the basic principle of Model View Architecture to create a simple application. I created a server using express which upon receiving a request from the client sends it to the controller(homeController) through route(MainRoutes) which then takes the help of model(Item/Category) to extract data from the database(MongoDB) and sends the data to the view(index.ejs/item.ejs) to create a unique display for each client.
 
 Optimizations
 
 (optional)
 
-You don't have to include this section but interviewers love that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are GREAT to bring up in interviews and you can use this section as reference when studying for technical interviews!
+To make the application more secure, it would be a great idea to create a login system where each user can create their own list and not interfere with others. it would also be a great idea to add a single view page for each item that describes each item in detail.
 
 Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those whoa this is awesome or wow I actually did it! moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+I learned to be more patient while approaching a problem and look for a solution from a different perspective. for instance, when I was having problem with connecting public css folder to apply designs to the views folder, I took a step back and found out I needed to provide the proper route to the css folder in ejs file under views folder. It was definitely, an aha moment where a simple issue led to all sorts of problems.
 
 Examples:
 

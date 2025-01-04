@@ -21,11 +21,13 @@
     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
     crossorigin="anonymous"
   />
+  <link rel="stylesheet" href="/css/style.css">
     <title>Document</title>
   </head>
   <body>
     <h1><%=title%></h1>
     <h2>Please select below Category to find items in a grocery department</h2>
+    <div class="main-container">
     <ul>
      <% for(let i=0;i<categories.length;i++){ %>
         <li>
@@ -37,15 +39,16 @@
           >
             <button class="btn btn-primary fa fa-trash" type="submit"></button>
           </form>
-            <a href="/category/<%=categories[i]._id%>">Click to see the products in selected Category</a>
+            <a href="/category/<%=categories[i]._id%>">Click to see/add the products in selected Category</a>
         </li>
      <% } %>
     </ul>
-
+  </div>
     <form action="/category"  method="post">
       <label for="category">Category: </label>
       <input type="text" name="category" />
       <button type="submit">Add a new Category</button>
     </form>
+
   </body>
 </html>
