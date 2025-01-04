@@ -1,4 +1,6 @@
-My Awesome Project
+Sam Grocery
+
+<img src="./public/grocery.mp4"/>
 
 This application lets you create your own personal grocery inventory management system where you can create your own categories and the list of items associated with each categories. you can also delete and add categories and items.
 
