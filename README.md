@@ -1,7 +1,6 @@
 Sam Grocery
 
-
-https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2xhbDlmN2k1bHRqZTRwc3NmOXNjZXV1cTVnd3hheGUza29hazFsaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KsQ1IIgVPOEAhQkMU7/giphy.webp
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/KsQ1IIgVPOEAhQkMU7" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/abcnetwork-supermarketsweep-super-sweep-market-KsQ1IIgVPOEAhQkMU7">via GIPHY</a></p>
 
 
 
