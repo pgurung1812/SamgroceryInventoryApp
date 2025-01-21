@@ -1,6 +1,10 @@
 Sam Grocery
 
-<img src="./public/grocery.mp4"/>
+![76Al](https://github.com/user-attachments/assets/dd5f4e91-676a-44c4-afbb-4840f3f55ce7)
+
+
+
+
 
 This application lets you create your own personal grocery inventory management system where you can create your own categories and the list of items associated with each categories. you can also delete and add categories and items.
 
